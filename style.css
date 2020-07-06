@@ -102,3 +102,30 @@ small {
     align-items: center;
     justify-content: center;
 }
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 650px) {
+    main {
+        flex-direction: column;
+    }
+
+    .image-hero {
+        height: 200px;
+    }
+
+    .image-hero,
+    .info {
+        width: 100%;
+    }
+
+    .info {
+        padding-bottom: 20px;
+    }
+
+    .info > p {
+        margin: 15px 0 25gipx;
+    }
+
+}
