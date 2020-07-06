@@ -20,4 +20,85 @@
 
 body {
     font-family: Manrope, sans-serif;
+    font-size: 13px;
+    background-color: var(--Light-Grayish-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    background-color: #fff;
+    max-width: 80%;
+    width: 625px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 30px rgba(186, 206, 219, 0.5);
+    overflow: hidden;
+}
+
+h1{
+    color: var(--Very-Dark-Grayish-Blue);
+    font-size: 1.25em;
+}
+
+p {
+    color: var(--Desaturated-Dark-Blue);
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.image-hero {
+    background-image: url(./images/drawers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 60%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile p {
+    color: var(--Very-Dark-Grayish-Blue);
+    margin: 0;
+    font-weight: bold;
+}
+
+small {
+    color: var(--Desaturated-Dark-Blue);
+}
+
+
+.share-btn {
+    background-color: var(--Light-Grayish-Blue);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
